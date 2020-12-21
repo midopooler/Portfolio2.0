@@ -21,19 +21,19 @@ Material:
     m_TexEnvs:
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: e61a550a7ddc3304fbfe0a01919efe9c, type: 3}
-        m_Scale: {x: 1.8, y: 0.54}
-        m_Offset: {x: 0.4, y: 0}
+        m_Scale: {x: 0.51, y: 0.21}
+        m_Offset: {x: 0.4, y: 0.18}
     - _NoiseTex:
         m_Texture: {fileID: 2800000, guid: 39a00f3a4d887cc448b5d165b19938eb, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 1.77, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
-        m_Texture: {fileID: 2800000, guid: 1d557bc533f5684438d25d03042b1025, type: 3}
-        m_Scale: {x: 1.23, y: 1}
+        m_Texture: {fileID: 2800000, guid: fccc6818be225674382d96933708d421, type: 3}
+        m_Scale: {x: 1.23, y: 0.6}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Cull: 2
     m_Colors:
-    - _Color: {r: 38.937145, g: 0.6115782, b: 0, a: 1}
+    - _Color: {r: 6.41584, g: 10.154222, b: 5.8817844, a: 0.53333336}
     - _MovementDirection: {r: 0, g: -0.1, b: 0, a: 1}
   m_BuildTextureStacks: []

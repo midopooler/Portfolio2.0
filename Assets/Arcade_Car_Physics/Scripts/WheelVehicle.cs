@@ -10,7 +10,10 @@ using UnityEngine;
 namespace VehicleBehaviour {
     [RequireComponent(typeof(Rigidbody))]
     public class WheelVehicle : MonoBehaviour {
-        
+        public FixedJoystick Throttlejoystick;
+        public FixedJoystick turnJoyStick;
+        public bool useJoyStick;
+
         [Header("Inputs")]
     #if MULTIOSCONTROLS
         [SerializeField] PlayerNumber playerId;
@@ -230,11 +233,15 @@ namespace VehicleBehaviour {
                 if (throttleInput != "" && throttleInput != null)
                 {
                     throttle = GetInput(throttleInput) - GetInput(brakeInput);
+                    if(useJoyStick)
+                    throttle = Throttlejoystick.Vertical;
                 }
                 // Boost
                 boosting = (GetInput(boostInput) > 0.5f);
                 // Turn
                 steering = turnInputCurve.Evaluate(GetInput(turnInput)) * steerAngle;
+                if (useJoyStick)
+                    steering = turnJoyStick.Horizontal*steerAngle/3;
                 // Dirft
                 drift = GetInput(driftInput) > 0 && _rb.velocity.sqrMagnitude > 100;
                 // Jump

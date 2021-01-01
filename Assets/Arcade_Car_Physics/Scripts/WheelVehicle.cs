@@ -177,8 +177,20 @@ namespace VehicleBehaviour {
         Rigidbody _rb;
         WheelCollider[] wheels;
 
-        // Init rigidbody, center of mass, wheels and more
+        // Init rigidbody, center of mass, wheels and more 
+        
         void Start() {
+
+          
+               if (SystemInfo.deviceType == DeviceType.Desktop)
+                {
+                useJoyStick = false;
+                
+                   }
+                else
+            {
+                useJoyStick = true;
+            }
 #if MULTIOSCONTROLS
             Debug.Log("[ACP] Using MultiOSControls");
 #endif

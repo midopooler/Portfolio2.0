@@ -12,7 +12,7 @@ public class DeviceCheck : MonoBehaviour
         {
             devicename.text = "moglail phone";
         } 
-        else
+        else if (SystemInfo.deviceType == DeviceType.Desktop)
         {
             devicename.text = "kamputer";
         }

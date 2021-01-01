@@ -30,7 +30,7 @@ public class openButtonScript : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            if (Input.GetKeyUp(KeyCode.Space))
+            if (Input.GetKeyUp(KeyCode.Return))
             {
                 Application.OpenURL("https://pulkitmidha.com");
             }

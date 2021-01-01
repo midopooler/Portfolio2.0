@@ -8,22 +8,32 @@ public class openButtonScript : MonoBehaviour
     public GameObject buttonOpener;
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
             buttonOpener.transform.position = new Vector3(this.transform.position.x, buttonOpener.transform.position.y, this.transform.position.z);
             Debug.Log("Car Entered");
             buttonOpen.SetTrigger("EnterButton");
-            
-        } 
-    
+
+        }
+
     }
     private void OnTriggerExit(Collider other)
     {
-        if(other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
             Debug.Log("CarExit");
             buttonOpen.SetTrigger("ExitButton");
-            
+
+        }
+    }
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            if (Input.GetKeyUp(KeyCode.Space))
+            {
+                Application.OpenURL("https://pulkitmidha.com");
+            }
         }
     }
 }

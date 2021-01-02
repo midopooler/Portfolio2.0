@@ -11,7 +11,7 @@ public class openButtonScript : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             buttonOpener.transform.position = new Vector3(this.transform.position.x, buttonOpener.transform.position.y, this.transform.position.z);
-            Debug.Log("Car Entered");
+           
             buttonOpen.SetTrigger("EnterButton");
 
         }
@@ -21,7 +21,7 @@ public class openButtonScript : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Debug.Log("CarExit");
+            
             buttonOpen.SetTrigger("ExitButton");
 
         }
@@ -30,7 +30,7 @@ public class openButtonScript : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            if (Input.GetKeyUp(KeyCode.Return))
+            if (Input.GetKeyUp(KeyCode.Return) || Input.GetKey("mouse 0"))
             {
                 Application.OpenURL("https://pulkitmidha.com");
             }

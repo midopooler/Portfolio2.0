@@ -13,6 +13,7 @@ namespace VehicleBehaviour {
         public FixedJoystick Throttlejoystick;
         public FixedJoystick turnJoyStick;
         public bool useJoyStick;
+        public Animator JoystickOpenerAnim;
 
         [Header("Inputs")]
     #if MULTIOSCONTROLS
@@ -223,10 +224,12 @@ namespace VehicleBehaviour {
             if (useJoyStick == true)
             {
                 useJoyStick = false;
+                JoystickOpenerAnim.SetTrigger("CloseJoystick");
             }
             else
             {
                 useJoyStick = true;
+                JoystickOpenerAnim.SetTrigger("OpenJoystick");
             }
         }
         // Visual feedbacks and boost regen

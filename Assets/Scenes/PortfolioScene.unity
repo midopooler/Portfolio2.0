@@ -1191,6 +1191,10 @@ PrefabInstance:
       propertyPath: Throttlejoystick
       value: 
       objectReference: {fileID: 175400946}
+    - target: {fileID: 3789329188671962665, guid: ca6c5ed69981a7c35924ab5a07de885b, type: 3}
+      propertyPath: JoystickOpenerAnim
+      value: 
+      objectReference: {fileID: 1014532392}
     - target: {fileID: 5462918380448299598, guid: ca6c5ed69981a7c35924ab5a07de885b, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1474,7 +1478,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -247}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1014532392

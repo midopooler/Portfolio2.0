@@ -217,7 +217,18 @@ namespace VehicleBehaviour {
                 wheel.motorTorque = 0.0001f;
             }
         }
-
+        //joystick opener
+        public void JoystickOpener()
+        {
+            if (useJoyStick == true)
+            {
+                useJoyStick = false;
+            }
+            else
+            {
+                useJoyStick = true;
+            }
+        }
         // Visual feedbacks and boost regen
         void Update()
         {

@@ -13763,6 +13763,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: joystickprefab
       objectReference: {fileID: 0}
+    - target: {fileID: 4662924768467874864, guid: 27ca0692c1ce2c647a12d294146eef7f, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662924768467874864, guid: 27ca0692c1ce2c647a12d294146eef7f, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662924768467874864, guid: 27ca0692c1ce2c647a12d294146eef7f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662924768467874864, guid: 27ca0692c1ce2c647a12d294146eef7f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662924768467874864, guid: 27ca0692c1ce2c647a12d294146eef7f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -54.579987
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662924768467874864, guid: 27ca0692c1ce2c647a12d294146eef7f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -52.130005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662924768467874864, guid: 27ca0692c1ce2c647a12d294146eef7f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 45.73358
+      objectReference: {fileID: 0}
     - target: {fileID: 4662924768467874865, guid: 27ca0692c1ce2c647a12d294146eef7f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -13771,6 +13799,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: JoystickOpener
       objectReference: {fileID: 0}
+    - target: {fileID: 4662924768467874878, guid: 27ca0692c1ce2c647a12d294146eef7f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1d08f5f268608134b846f6b43682b31d, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27ca0692c1ce2c647a12d294146eef7f, type: 3}
 --- !u!1001 &1794723010

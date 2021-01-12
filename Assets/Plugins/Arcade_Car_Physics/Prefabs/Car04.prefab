@@ -9857,6 +9857,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c241727a8fc83048b56bdd0b450f8fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Throttlejoystick: {fileID: 0}
+  turnJoyStick: {fileID: 0}
+  useJoyStick: 1
+  JoystickOpenerAnim: {fileID: 0}
   isPlayer: 1
   throttleInput: Vertical
   brakeInput: Fire3

@@ -223,17 +223,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 55232488}
-  m_LocalRotation: {x: 0.71040636, y: 0.013341276, z: 0.010485142, w: 0.7035872}
+  m_LocalRotation: {x: 0.7105301, y: 0.0014445409, z: -0.0012970194, w: 0.7036642}
   m_LocalPosition: {x: 0, y: 0, z: 3.31}
-  m_LocalScale: {x: 0.0040043234, y: 0.004144876, z: 0.004144876}
+  m_LocalScale: {x: 0.004527288, y: 0.004144876, z: 0.004144876}
   m_Children:
   - {fileID: 185752050}
   m_Father: {fileID: 1189087136}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 92.007996, y: -73.912994, z: -74.14398}
+  m_LocalEulerAnglesHint: {x: 90.556, y: -1.1199951, z: -1.34198}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.13, y: 0.65}
+  m_AnchoredPosition: {x: 0.164, y: 0.504}
   m_SizeDelta: {x: 1082, y: 646}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &55232490
@@ -2856,7 +2856,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 02c07505ae366ff48ad8156bbe5266f4, type: 2}
     - target: {fileID: 919132149155446097, guid: 3e50abfe59aa4754488f57d0fc735c23, type: 3}
       propertyPath: m_Name
-      value: ad_billboard (7)
+      value: Experience Billboard
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e50abfe59aa4754488f57d0fc735c23, type: 3}
@@ -5225,7 +5225,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 02c07505ae366ff48ad8156bbe5266f4, type: 2}
     - target: {fileID: 919132149155446097, guid: 3e50abfe59aa4754488f57d0fc735c23, type: 3}
       propertyPath: m_Name
-      value: ad_billboard (1)
+      value: Interest Billboard
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e50abfe59aa4754488f57d0fc735c23, type: 3}

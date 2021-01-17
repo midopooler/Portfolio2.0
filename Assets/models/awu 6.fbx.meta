@@ -1,38 +1,8 @@
 fileFormatVersion: 2
-guid: 969eb226601bbfa4bb08d251fdff3cc6
+guid: d39c6772229bf2149b21630a6244809e
 ModelImporter:
   serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      74: 9049797753206554464
-    second: Armature|both-legs
-  - first:
-      74: -1978303741906493279
-    second: Armature|idle
-  - first:
-      74: -6594517465120836090
-    second: Armature|left-to-left-kick
-  - first:
-      74: -537752969430881166
-    second: Armature|left-to-right-kick
-  - first:
-      74: -3439867006282189860
-    second: Armature|left-too-slow
-  - first:
-      74: 4368295736234589367
-    second: Armature|right-right-kick
-  - first:
-      74: -5264892577103975169
-    second: Armature|right-to-left-kick.
-  - first:
-      74: -1619443762381609776
-    second: Armature|right-too-slow
-  - first:
-      74: -3299206183227852460
-    second: Armature|start-right-to right
-  - first:
-      74: 2266960639437523128
-    second: Armature|start-right-to-left
+  internalIDToNameTable: []
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -71,8 +41,8 @@ ModelImporter:
     sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
+    importCameras: 1
+    importLights: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -103,7 +73,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 0
+  importAnimation: 1
   humanDescription:
     serializedVersion: 3
     human: []

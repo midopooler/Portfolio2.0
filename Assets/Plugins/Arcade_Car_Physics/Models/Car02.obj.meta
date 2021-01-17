@@ -1,89 +1,245 @@
 fileFormatVersion: 2
 guid: 2bdb67dd109374a0cb46d1c3f285d23d
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: cylinder_hollow_63
-    100004: cylinder_hollow_64
-    100006: detail_engine_61
-    100008: detail_fenderRounded_57
-    100010: detail_fenderRounded_58
-    100012: detail_fenderRounded_59
-    100014: detail_fenderRounded_60
-    100016: detail_spoilerSmall_55
-    100018: hood_sport_52
-    100020: trunk_default_51
-    100022: windshield_default_53
-    400000: //RootNode
-    400002: cylinder_hollow_63
-    400004: cylinder_hollow_64
-    400006: detail_engine_61
-    400008: detail_fenderRounded_57
-    400010: detail_fenderRounded_58
-    400012: detail_fenderRounded_59
-    400014: detail_fenderRounded_60
-    400016: detail_spoilerSmall_55
-    400018: hood_sport_52
-    400020: trunk_default_51
-    400022: windshield_default_53
-    2100000: _defaultMat
-    2100002: tire
-    2100004: lightRed
-    2100006: blueSteel
-    2100008: light
-    2100010: orangeSteel
-    2100012: glass
-    2300000: cylinder_hollow_63
-    2300002: cylinder_hollow_64
-    2300004: detail_engine_61
-    2300006: detail_fenderRounded_57
-    2300008: detail_fenderRounded_58
-    2300010: detail_fenderRounded_59
-    2300012: detail_fenderRounded_60
-    2300014: detail_spoilerSmall_55
-    2300016: hood_sport_52
-    2300018: trunk_default_51
-    2300020: windshield_default_53
-    3300000: cylinder_hollow_63
-    3300002: cylinder_hollow_64
-    3300004: detail_engine_61
-    3300006: detail_fenderRounded_57
-    3300008: detail_fenderRounded_58
-    3300010: detail_fenderRounded_59
-    3300012: detail_fenderRounded_60
-    3300014: detail_spoilerSmall_55
-    3300016: hood_sport_52
-    3300018: trunk_default_51
-    3300020: windshield_default_53
-    4300000: cylinder_hollow_63
-    4300002: cylinder_hollow_64
-    4300004: detail_engine_61
-    4300006: detail_fenderRounded_57
-    4300008: detail_fenderRounded_58
-    4300010: detail_fenderRounded_59
-    4300012: detail_fenderRounded_60
-    4300014: detail_spoilerSmall_55
-    4300016: hood_sport_52
-    4300018: trunk_default_51
-    4300020: windshield_default_53
-    11400000: //RootNode
-    11400002: //RootNode
-    11400004: cylinder_hollow_63
-    11400006: cylinder_hollow_64
-    11400008: detail_engine_61
-    11400010: detail_fenderRounded_57
-    11400012: detail_fenderRounded_58
-    11400014: detail_fenderRounded_59
-    11400016: detail_fenderRounded_60
-    11400018: detail_spoilerSmall_55
-    11400020: hood_sport_52
-    11400022: trunk_default_51
-    11400024: windshield_default_53
-    2186277476908879412: ImportLogs
+  serializedVersion: 20101
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: cylinder_hollow_63
+  - first:
+      1: 100004
+    second: cylinder_hollow_64
+  - first:
+      1: 100006
+    second: detail_engine_61
+  - first:
+      1: 100008
+    second: detail_fenderRounded_57
+  - first:
+      1: 100010
+    second: detail_fenderRounded_58
+  - first:
+      1: 100012
+    second: detail_fenderRounded_59
+  - first:
+      1: 100014
+    second: detail_fenderRounded_60
+  - first:
+      1: 100016
+    second: detail_spoilerSmall_55
+  - first:
+      1: 100018
+    second: hood_sport_52
+  - first:
+      1: 100020
+    second: trunk_default_51
+  - first:
+      1: 100022
+    second: windshield_default_53
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: cylinder_hollow_63
+  - first:
+      4: 400004
+    second: cylinder_hollow_64
+  - first:
+      4: 400006
+    second: detail_engine_61
+  - first:
+      4: 400008
+    second: detail_fenderRounded_57
+  - first:
+      4: 400010
+    second: detail_fenderRounded_58
+  - first:
+      4: 400012
+    second: detail_fenderRounded_59
+  - first:
+      4: 400014
+    second: detail_fenderRounded_60
+  - first:
+      4: 400016
+    second: detail_spoilerSmall_55
+  - first:
+      4: 400018
+    second: hood_sport_52
+  - first:
+      4: 400020
+    second: trunk_default_51
+  - first:
+      4: 400022
+    second: windshield_default_53
+  - first:
+      21: 2100000
+    second: _defaultMat
+  - first:
+      21: 2100002
+    second: tire
+  - first:
+      21: 2100004
+    second: lightRed
+  - first:
+      21: 2100006
+    second: blueSteel
+  - first:
+      21: 2100008
+    second: light
+  - first:
+      21: 2100010
+    second: orangeSteel
+  - first:
+      21: 2100012
+    second: glass
+  - first:
+      23: 2300000
+    second: cylinder_hollow_63
+  - first:
+      23: 2300002
+    second: cylinder_hollow_64
+  - first:
+      23: 2300004
+    second: detail_engine_61
+  - first:
+      23: 2300006
+    second: detail_fenderRounded_57
+  - first:
+      23: 2300008
+    second: detail_fenderRounded_58
+  - first:
+      23: 2300010
+    second: detail_fenderRounded_59
+  - first:
+      23: 2300012
+    second: detail_fenderRounded_60
+  - first:
+      23: 2300014
+    second: detail_spoilerSmall_55
+  - first:
+      23: 2300016
+    second: hood_sport_52
+  - first:
+      23: 2300018
+    second: trunk_default_51
+  - first:
+      23: 2300020
+    second: windshield_default_53
+  - first:
+      33: 3300000
+    second: cylinder_hollow_63
+  - first:
+      33: 3300002
+    second: cylinder_hollow_64
+  - first:
+      33: 3300004
+    second: detail_engine_61
+  - first:
+      33: 3300006
+    second: detail_fenderRounded_57
+  - first:
+      33: 3300008
+    second: detail_fenderRounded_58
+  - first:
+      33: 3300010
+    second: detail_fenderRounded_59
+  - first:
+      33: 3300012
+    second: detail_fenderRounded_60
+  - first:
+      33: 3300014
+    second: detail_spoilerSmall_55
+  - first:
+      33: 3300016
+    second: hood_sport_52
+  - first:
+      33: 3300018
+    second: trunk_default_51
+  - first:
+      33: 3300020
+    second: windshield_default_53
+  - first:
+      43: 4300000
+    second: cylinder_hollow_63
+  - first:
+      43: 4300002
+    second: cylinder_hollow_64
+  - first:
+      43: 4300004
+    second: detail_engine_61
+  - first:
+      43: 4300006
+    second: detail_fenderRounded_57
+  - first:
+      43: 4300008
+    second: detail_fenderRounded_58
+  - first:
+      43: 4300010
+    second: detail_fenderRounded_59
+  - first:
+      43: 4300012
+    second: detail_fenderRounded_60
+  - first:
+      43: 4300014
+    second: detail_spoilerSmall_55
+  - first:
+      43: 4300016
+    second: hood_sport_52
+  - first:
+      43: 4300018
+    second: trunk_default_51
+  - first:
+      43: 4300020
+    second: windshield_default_53
+  - first:
+      114: 11400000
+    second: //RootNode
+  - first:
+      114: 11400002
+    second: //RootNode
+  - first:
+      114: 11400004
+    second: cylinder_hollow_63
+  - first:
+      114: 11400006
+    second: cylinder_hollow_64
+  - first:
+      114: 11400008
+    second: detail_engine_61
+  - first:
+      114: 11400010
+    second: detail_fenderRounded_57
+  - first:
+      114: 11400012
+    second: detail_fenderRounded_58
+  - first:
+      114: 11400014
+    second: detail_fenderRounded_59
+  - first:
+      114: 11400016
+    second: detail_fenderRounded_60
+  - first:
+      114: 11400018
+    second: detail_spoilerSmall_55
+  - first:
+      114: 11400020
+    second: hood_sport_52
+  - first:
+      114: 11400022
+    second: trunk_default_51
+  - first:
+      114: 11400024
+    second: windshield_default_53
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -115,21 +271,31 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
@@ -137,10 +303,13 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -150,14 +319,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

@@ -1205,7 +1205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonOpen: {fileID: 1140526568}
   buttonOpener: {fileID: 1400081725}
-  URL_toOpen: 
+  URL_toOpen: mailto:awal.singh04@gmail.com
 --- !u!65 &124445385
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1238,7 +1238,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c8f44c69a9ba5db4b8d23e1005eefae3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1276,7 +1276,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 124445383}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.03, y: 8.487, z: -348.4}
+  m_LocalPosition: {x: 8.03, y: 8.487, z: -347.94}
   m_LocalScale: {x: 5.9507446, y: 0.1888181, z: 5.9951396}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1956,7 +1956,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonOpen: {fileID: 1140526568}
   buttonOpener: {fileID: 1400081725}
-  URL_toOpen: 
+  URL_toOpen: https://www.instagram.com/awalsingh/
 --- !u!65 &191576499
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8971,7 +8971,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonOpen: {fileID: 1140526568}
   buttonOpener: {fileID: 1400081725}
-  URL_toOpen: 
+  URL_toOpen: https://www.linkedin.com/in/awal-raj-singh-421664176/
 --- !u!65 &1217372936
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12339,7 +12339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonOpen: {fileID: 1140526568}
   buttonOpener: {fileID: 1400081725}
-  URL_toOpen: 
+  URL_toOpen: https://github.com/dracielisawal
 --- !u!65 &1582298735
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13246,7 +13246,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonOpen: {fileID: 1140526568}
   buttonOpener: {fileID: 1400081725}
-  URL_toOpen: 
+  URL_toOpen: https://twitter.com/AwalRajSingh4?s=08
 --- !u!65 &1759573954
 BoxCollider:
   m_ObjectHideFlags: 0

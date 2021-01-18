@@ -31,7 +31,7 @@ public class openButtonScript : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            if (Input.GetKeyUp(KeyCode.Return) || Input.GetKey("mouse 0"))
+            if (Input.GetKeyUp(KeyCode.Return) || Input.GetKeyUp("mouse 0"))
             {
                 Application.OpenURL(URL_toOpen);
             }

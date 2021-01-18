@@ -6,7 +6,8 @@ public class openButtonScript : MonoBehaviour
 {
     public Animator buttonOpen;
     public GameObject buttonOpener;
-    private void OnTriggerEnter(Collider other)
+    public string URL_toOpen;
+    private void OnTriggerEnter(Collider other) 
     {
         if (other.gameObject.CompareTag("Player"))
         {
@@ -32,7 +33,7 @@ public class openButtonScript : MonoBehaviour
         {
             if (Input.GetKeyUp(KeyCode.Return) || Input.GetKey("mouse 0"))
             {
-                Application.OpenURL("https://pulkitmidha.com");
+                Application.OpenURL(URL_toOpen);
             }
         }
     }

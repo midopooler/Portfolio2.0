@@ -548,10 +548,29 @@ namespace AssetUsageDetectorNamespace
 			catch( Exception e )
 			{
 				StringBuilder sb = new StringBuilder( objectsToSearchSet.Count * 50 + callStack.Count * 50 + 500 );
-				sb.AppendLine( "<b>AssetUsageDetector Error:</b>" ).AppendLine();
+				sb.AppendLine( "<b>AssetUsageDetector Error:</b>" ).AppendLine().Append( e ).AppendLine();
+
+				Object latestUnityObjectInCallStack = null;
 				if( callStack.Count > 0 )
 				{
 					sb.AppendLine( "Stack contents: " );
+
+					for( int i = callStack.Count - 1; i >= 0; i-- )
+					{
+						latestUnityObjectInCallStack = callStack[i] as Object;
+						if( latestUnityObjectInCallStack )
+						{
+							if( !AssetDatabase.Contains( latestUnityObjectInCallStack ) )
+							{
+								string scenePath = AssetDatabase.GetAssetOrScenePath( latestUnityObjectInCallStack );
+								if( !string.IsNullOrEmpty( scenePath ) && SceneManager.GetSceneByPath( scenePath ).IsValid() )
+									sb.Append( "Scene: " ).AppendLine( scenePath );
+							}
+
+							break;
+						}
+					}
+
 					for( int i = callStack.Count - 1; i >= 0; i-- )
 					{
 						sb.Append( i ).Append( ": " );
@@ -575,10 +594,7 @@ namespace AssetUsageDetectorNamespace
 						sb.Append( obj.name ).Append( " (" ).Append( obj.GetType() ).AppendLine( ")" );
 				}
 
-				sb.AppendLine();
-				sb.Append( e ).AppendLine();
-
-				Debug.LogError( sb.ToString() );
+				Debug.LogError( sb.ToString(), latestUnityObjectInCallStack );
 
 				try
 				{
@@ -619,7 +635,7 @@ namespace AssetUsageDetectorNamespace
 
 					if( shouldOpenPrefabStageWithoutContext )
 #endif
-						AssetDatabase.OpenAsset( AssetDatabase.LoadAssetAtPath<GameObject>( openPrefabStageAssetPath ) );
+					AssetDatabase.OpenAsset( AssetDatabase.LoadAssetAtPath<GameObject>( openPrefabStageAssetPath ) );
 				}
 #endif
 			}

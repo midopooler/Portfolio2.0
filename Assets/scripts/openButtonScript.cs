@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Runtime.InteropServices;
 
 public class openButtonScript : MonoBehaviour
 {
@@ -33,8 +34,25 @@ public class openButtonScript : MonoBehaviour
         {
             if (Input.GetKeyUp(KeyCode.Return) || Input.GetKeyUp("mouse 0"))
             {
-                Application.OpenURL(URL_toOpen);
+                OpenPage();
             }
         }
     }
+    public void OpenPage()
+    {
+#if UNITY_WEBGL
+
+        openPage(URL_toOpen);
+
+#else
+        Application.OpenURL("www.google.com");
+        Debug.Log("test");
+       
+#endif
+    }
+
+
+    [DllImport("__Internal")]
+    private static extern void openPage(string url);
 }
+

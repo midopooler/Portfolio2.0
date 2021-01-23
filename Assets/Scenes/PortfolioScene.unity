@@ -1393,6 +1393,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 1ad17c1e905651a4f925a0179140175b, type: 3}
   - {fileID: 8300000, guid: 1a2e765c13521a34cbd9f89d4dc2bd79, type: 3}
   - {fileID: 8300000, guid: b35f37f356276264698b23cb3f590859, type: 3}
+  source: {fileID: 0}
 --- !u!54 &142070523
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2898,7 +2899,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 17aa2b6dc1644ea4babf82b8c57e22bf, type: 3}
   - {fileID: 8300000, guid: 1ad17c1e905651a4f925a0179140175b, type: 3}
   - {fileID: 8300000, guid: 1a2e765c13521a34cbd9f89d4dc2bd79, type: 3}
+  - {fileID: 8300000, guid: 0ccebc01cbefa6547a52a69a0ae32628, type: 3}
   - {fileID: 8300000, guid: b35f37f356276264698b23cb3f590859, type: 3}
+  - {fileID: 8300000, guid: fd9069ef19b4c774692e42ea30576f12, type: 3}
+  - {fileID: 8300000, guid: 75c40e3752cd02b49823b5e8aaafa389, type: 3}
+  source: {fileID: 0}
 --- !u!1 &249924461
 GameObject:
   m_ObjectHideFlags: 0
@@ -5788,6 +5793,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 1ad17c1e905651a4f925a0179140175b, type: 3}
   - {fileID: 8300000, guid: 1a2e765c13521a34cbd9f89d4dc2bd79, type: 3}
   - {fileID: 8300000, guid: b35f37f356276264698b23cb3f590859, type: 3}
+  source: {fileID: 0}
 --- !u!54 &727416388
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12548,6 +12554,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 1ad17c1e905651a4f925a0179140175b, type: 3}
   - {fileID: 8300000, guid: 1a2e765c13521a34cbd9f89d4dc2bd79, type: 3}
   - {fileID: 8300000, guid: b35f37f356276264698b23cb3f590859, type: 3}
+  source: {fileID: 0}
 --- !u!54 &1538216118
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14808,6 +14815,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 1ad17c1e905651a4f925a0179140175b, type: 3}
   - {fileID: 8300000, guid: 1a2e765c13521a34cbd9f89d4dc2bd79, type: 3}
   - {fileID: 8300000, guid: b35f37f356276264698b23cb3f590859, type: 3}
+  source: {fileID: 0}
 --- !u!54 &1774853560
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31782,7 +31790,6 @@ GameObject:
   - component: {fileID: 6504120903685609350}
   - component: {fileID: 5481852859187533478}
   - component: {fileID: 7954325188420940332}
-  - component: {fileID: 5462918379543597610}
   m_Layer: 0
   m_Name: Car04
   m_TagString: Player
@@ -31790,19 +31797,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &5462918379543597610
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5462918379543597609}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df3efd1d667df0d4886766bfccf0e322, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audios: []
 --- !u!82 &5481852859187533478
 AudioSource:
   m_ObjectHideFlags: 0

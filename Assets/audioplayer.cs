@@ -6,15 +6,13 @@ using UnityEngine;
 public class audioplayer : MonoBehaviour
 {
     public AudioClip[] audios;
+    public AudioSource source;
     void Start()
     {
+        source = this.gameObject.GetComponent<AudioSource>();
     }
 
-        // Update is called once per frame
-        void Update()
-    {
-        
-    }
+   
 
   void OnCollisionEnter(Collision collision)
     {
@@ -23,8 +21,8 @@ public class audioplayer : MonoBehaviour
         //{ 
         Random rand = new Random();
 
-        this.gameObject.GetComponent<AudioSource>().clip = audios[Random.Range(0, audios.Length)];
-            this.gameObject.GetComponent<AudioSource>().Play();
+        source.clip = audios[Random.Range(0, audios.Length-1)];
+            source.Play();
             
         //}
     }

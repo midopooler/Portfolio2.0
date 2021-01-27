@@ -16,7 +16,7 @@ public class audioplayer : MonoBehaviour
 
   void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("hit");
+       // Debug.Log("hit");
         // if (collision.gameObject.tag == "Player"|| collision.gameObject.tag == "road" || collision.gameObject.tag == "brick")
         //{ 
         Random rand = new Random();

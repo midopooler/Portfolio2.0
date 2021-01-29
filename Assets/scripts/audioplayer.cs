@@ -7,10 +7,15 @@ public class audioplayer : MonoBehaviour
 {
     public AudioClip[] audios;
     public AudioSource source;
-    void Start()
+    private void Awake()
     {
-        source = this.gameObject.GetComponent<AudioSource>();
+        
+            source = this.gameObject.GetComponent<AudioSource>();
+        source.volume = 0;
+        Invoke("audioon", 3f);
+        
     }
+   
 
    
 
@@ -25,5 +30,10 @@ public class audioplayer : MonoBehaviour
             source.Play();
             
         //}
+    } 
+
+  void  audioon()
+    {
+        source.volume = 100;
     }
 }

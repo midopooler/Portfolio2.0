@@ -10,11 +10,11 @@ public class DeviceCheck : MonoBehaviour
     {
         if(SystemInfo.deviceType == DeviceType.Handheld)
         {
-            devicename.text = "moglail phone";
+            devicename.text = "mobile phone";
         } 
         else if (SystemInfo.deviceType == DeviceType.Desktop)
         {
-            devicename.text = "kamputer";
+            devicename.text = "computer";
         }
     }
 

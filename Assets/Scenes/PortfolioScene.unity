@@ -21151,6 +21151,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.50000024, y: 1.6, z: 53.395008}
   m_Center: {x: 0.25007057, y: 0.80005604, z: -16.69728}
+--- !u!1 &911529097
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 911529098}
+  m_Layer: 0
+  m_Name: Default Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &911529098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911529097}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 334.56, y: 9.006, z: -409}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &913659365
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64816,6 +64846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Awalnewcar
       objectReference: {fileID: 0}
+    - target: {fileID: 1621717532793952230, guid: b41d6810482962343871ce9638bbd5a9, type: 3}
+      propertyPath: defaultpos
+      value: 
+      objectReference: {fileID: 911529098}
     - target: {fileID: 7622120269056430979, guid: b41d6810482962343871ce9638bbd5a9, type: 3}
       propertyPath: turnJoyStick
       value: 

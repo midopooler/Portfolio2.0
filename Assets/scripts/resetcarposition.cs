@@ -5,11 +5,12 @@ using UnityEngine;
 public class resetcarposition : MonoBehaviour
 {
     public bool isinputenabled = true;
+    public Transform defaultpos;
     void Update()
     {
         if (isinputenabled)
         {
-            if (Input.GetKeyUp(KeyCode.R))
+            if (Input.GetKeyUp(KeyCode.F))
             {
                 this.gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
                 this.gameObject.transform.eulerAngles = new Vector3(this.gameObject.transform.eulerAngles.x, this.gameObject.transform.eulerAngles.y, 0);
@@ -22,6 +23,14 @@ public class resetcarposition : MonoBehaviour
 
                 // this.gameObject.transform.rotation = new Quaternion(this.gameObject.transform.rotation.x, this.gameObject.transform.rotation.y, 180, this.gameObject.transform.rotation.w);
 
+            }
+            if (Input.GetKeyUp(KeyCode.R))
+            {
+                this.gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
+                this.gameObject.transform.eulerAngles = defaultpos.rotation.eulerAngles;
+                this.gameObject.transform.position = defaultpos.position;
+                this.gameObject.GetComponent<Rigidbody>().freezeRotation = true;
+                StartCoroutine(resetcar());
             }
         }
     }

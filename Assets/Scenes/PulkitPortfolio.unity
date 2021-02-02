@@ -19882,7 +19882,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonOpen: {fileID: 1140526568}
   buttonOpener: {fileID: 1400081725}
-  URL_toOpen: https://www.linkedin.com/feed/update/urn:li:activity:6641762059002437632/
+  URL_toOpen: https://www.linkedin.com/posts/midopooler_hackathon-innovation-technology-activity-6641762059002437632-tFRs
 --- !u!65 &574873374
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40492,7 +40492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonOpen: {fileID: 1140526568}
   buttonOpener: {fileID: 1400081725}
-  URL_toOpen: https://www.linkedin.com/posts/pulkit-midha28_augmentedreality-hackmit-hackathon-activity-6714132365171593216-xyoQ
+  URL_toOpen: https://www.linkedin.com/posts/midopooler_augmentedreality-hackmit-hackathon-activity-6714132365171593216-upLG
 --- !u!65 &1122680132
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45493,7 +45493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonOpen: {fileID: 1140526568}
   buttonOpener: {fileID: 1400081725}
-  URL_toOpen: https://www.linkedin.com/in/pulkit-midha28/
+  URL_toOpen: https://www.linkedin.com/in/midopooler/
 --- !u!65 &1217372936
 BoxCollider:
   m_ObjectHideFlags: 0

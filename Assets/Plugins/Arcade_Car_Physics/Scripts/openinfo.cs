@@ -6,6 +6,13 @@ public class openinfo : MonoBehaviour
 {
     public bool canvaopen;
     public Animator canvaopeneranim;
+
+    private void Start()
+    {
+        canvaopen = true;
+        canvaopeneranim.SetTrigger("OpenCanva");
+    }
+    
     public void canvaopener()
     {
         if (canvaopen == true)
@@ -20,5 +27,6 @@ public class openinfo : MonoBehaviour
             canvaopen = true;
             canvaopeneranim.SetTrigger("OpenCanva");
         }
-    }
+    } 
+    
 }

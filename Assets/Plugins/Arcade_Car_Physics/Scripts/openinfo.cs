@@ -17,13 +17,13 @@ public class openinfo : MonoBehaviour
     {
         if (canvaopen == true)
         {
-            Debug.Log("canvas should close now");
+            //Debug.Log("canvas should close now");
             canvaopen = false;
             canvaopeneranim.SetTrigger("CloseCanva");
         }
         else
         {
-            Debug.Log("canvas should open now");
+           // Debug.Log("canvas should open now");
             canvaopen = true;
             canvaopeneranim.SetTrigger("OpenCanva");
         }

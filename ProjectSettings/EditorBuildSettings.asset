@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SplashScene.unity
     guid: 4172386017ad3c34bb583253bb29b112
   - enabled: 1
@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/zoldpulkitportfolio.unity
     guid: 682048352285e3c43b9f1ca79d299957
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PulkitPortfolio.unity
     guid: 0df1cdf3df17a7840bf9b12b6a026a9a
   m_configObjects: {}

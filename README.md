@@ -5,3 +5,4 @@ For now both Awal and Pulkit's (the devs) portfolio in the same build, which wil
 
 Try it out here [https://simmer.io/@midopooler/portfolio](https://simmer.io/@midopooler/portfolio)
 ![](https://github.com/midopooler/Portfolio2.0/blob/main/Screenshot_1.png)
+![](https://github.com/midopooler/Portfolio2.0/blob/main/Screenshot_2.png)

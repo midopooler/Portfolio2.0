@@ -17634,7 +17634,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Guru Tegh Bahadur Institute of Technology
+  m_text: "Guru Tegh Bahadur Institute of Technology \n\naffliated to GGSIPU"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -19225,7 +19225,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 554167510}
   m_LocalRotation: {x: -0, y: -0, z: 0.07392706, w: 0.99726367}
-  m_LocalPosition: {x: 178.26, y: -0.34, z: -110.57}
+  m_LocalPosition: {x: 178.11, y: -0.34, z: -110.57}
   m_LocalScale: {x: 1.0025355, y: 1.6124, z: 1.7535359}
   m_Children:
   - {fileID: 985140087}
@@ -32466,7 +32466,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: AUG 2018- JULY2022
+  m_text: AUG 2018- JULY 2022
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

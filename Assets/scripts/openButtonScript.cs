@@ -32,7 +32,7 @@ public class openButtonScript : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            if (Input.GetKeyUp(KeyCode.Return) || Input.GetKeyUp("mouse 0"))
+            if (Input.GetKeyUp(KeyCode.Return))
             {
                 OpenPage();
             }
@@ -40,6 +40,7 @@ public class openButtonScript : MonoBehaviour
     }
     public void OpenPage()
     {
+        Debug.Log(URL_toOpen);
 #if UNITY_WEBGL
 
         openPage(URL_toOpen);

@@ -183,15 +183,15 @@ namespace VehicleBehaviour {
         void Start() {
 
           
-               if (SystemInfo.deviceType == DeviceType.Desktop)
-                {
-                useJoyStick = false;
+            //   if (SystemInfo.deviceType == DeviceType.Desktop)
+            //    {
+            //    useJoyStick = false;
                 
-                   }
-                else
-            {
-                useJoyStick = true;
-            }
+            //       }
+            //    else
+            //{
+            //    useJoyStick = true;
+            //}
 #if MULTIOSCONTROLS
             Debug.Log("[ACP] Using MultiOSControls");
 #endif
@@ -219,19 +219,19 @@ namespace VehicleBehaviour {
             }
         }
         //joystick opener
-        public void JoystickOpener()
-        {
-            if (useJoyStick == true)
-            {
-                useJoyStick = false;
-                JoystickOpenerAnim.SetTrigger("CloseJoystick");
-            }
-            else
-            {
-                useJoyStick = true;
-                JoystickOpenerAnim.SetTrigger("OpenJoystick");
-            }
-        }
+        //public void JoystickOpener()
+        //{
+        //    if (useJoyStick == true)
+        //    {
+        //        useJoyStick = false;
+        //        JoystickOpenerAnim.SetTrigger("CloseJoystick");
+        //    }
+        //    else
+        //    {
+        //        useJoyStick = true;
+        //        JoystickOpenerAnim.SetTrigger("OpenJoystick");
+        //    }
+        //}
         // Visual feedbacks and boost regen
         void Update()
         {

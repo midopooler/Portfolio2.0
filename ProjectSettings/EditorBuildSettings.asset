@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/zoldpulkitportfolio.unity
     guid: 682048352285e3c43b9f1ca79d299957
   - enabled: 1
-    path: Assets/Scenes/PulkitPortfolio.unity
+    path: Assets/Scenes/MPulkitPortfolio.unity
     guid: 0df1cdf3df17a7840bf9b12b6a026a9a
   m_configObjects: {}

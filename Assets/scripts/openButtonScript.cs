@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using System.Runtime.InteropServices;
 
 public class openButtonScript : MonoBehaviour
 {
+    public Button openerbutton;
     public Animator buttonOpen;
     public GameObject buttonOpener;
     public string URL_toOpen;
@@ -36,7 +38,11 @@ public class openButtonScript : MonoBehaviour
             {
                 OpenPage();
             }
-        }
+            openerbutton.onClick.AddListener(OpenPage);
+            
+            
+        } 
+        
     }
     public void OpenPage()
     {

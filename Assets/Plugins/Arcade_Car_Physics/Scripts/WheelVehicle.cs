@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 #if MULTIOSCONTROLS
     using MOSC;
@@ -14,6 +15,7 @@ namespace VehicleBehaviour {
         public FixedJoystick turnJoyStick;
         public bool useJoyStick;
         public Animator JoystickOpenerAnim;
+        public Button boostbutton; 
 
         [Header("Inputs")]
     #if MULTIOSCONTROLS
@@ -233,6 +235,20 @@ namespace VehicleBehaviour {
         //    }
         //}
         // Visual feedbacks and boost regen
+ 
+          public void boostonbuttonpress()
+        {
+            StartCoroutine(startstopBoost());
+            
+        } 
+        IEnumerator startstopBoost()
+        {
+            boosting = true;
+            yield return new WaitForSeconds(1);
+            boosting = false;
+        }
+
+
         void Update()
         {
             foreach (ParticleSystem gasParticle in gasParticles)
@@ -263,15 +279,26 @@ namespace VehicleBehaviour {
                     throttle = Throttlejoystick.Vertical;
                 }
                 // Boost
+                if(!useJoyStick)
                 boosting = (GetInput(boostInput) > 0.5f);
+
+                if (useJoyStick && boostbutton != null)
+                {
+                    boostbutton.onClick.AddListener(boostonbuttonpress);
+                }
+                    
+                   
                 // Turn
                 steering = turnInputCurve.Evaluate(GetInput(turnInput)) * steerAngle;
                 if (useJoyStick)
                     steering = turnJoyStick.Horizontal*steerAngle/3;
                 // Dirft
                 drift = GetInput(driftInput) > 0 && _rb.velocity.sqrMagnitude > 100;
-                // Jump
-                jumping = GetInput(jumpInput) != 0;
+
+                if (useJoyStick)
+                    
+                    // Jump
+                    jumping = GetInput(jumpInput) != 0;
             }
 
             // Direction

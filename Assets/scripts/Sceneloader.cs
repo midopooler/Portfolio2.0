@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Sceneloader : MonoBehaviour
 {
 
-  
+    
     public void LoadAwal()
     {
         SceneManager.LoadScene("PortfolioScene");
@@ -15,5 +15,8 @@ public class Sceneloader : MonoBehaviour
     {
         SceneManager.LoadScene("PulkitPortfolio");
     }
-    
+    public void LoadMPulkit()
+    {
+        SceneManager.LoadScene("MPulkitPortfolio");
+    }
 }

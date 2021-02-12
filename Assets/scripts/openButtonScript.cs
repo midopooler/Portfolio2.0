@@ -38,7 +38,11 @@ public class openButtonScript : MonoBehaviour
             {
                 OpenPage();
             }
+            openerbutton.onClick.RemoveAllListeners();
             openerbutton.onClick.AddListener(OpenPage);
+            
+          
+           
             
             
         } 
@@ -47,6 +51,9 @@ public class openButtonScript : MonoBehaviour
     public void OpenPage()
     {
         Debug.Log(URL_toOpen);
+       
+       
+
 #if UNITY_WEBGL
 
         openPage(URL_toOpen);

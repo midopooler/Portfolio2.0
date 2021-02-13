@@ -27718,7 +27718,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: F
 --- !u!222 &773643454
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29641,7 +29641,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: R
 --- !u!222 &840255016
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -37191,7 +37191,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 83.98001, y: 187.2}
+  m_AnchoredPosition: {x: 81, y: 190}
   m_SizeDelta: {x: 88.04001, y: 45.600006}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1026638557
@@ -37269,9 +37269,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
+  m_Sprite: {fileID: 21300000, guid: 641cddffecd632841b63cb665a7f9c29, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -38095,7 +38095,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1045242947}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1621717530917889846}
+        m_TargetAssemblyTypeName: resetcarposition, Assembly-CSharp
+        m_MethodName: flipcarpos
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1045242947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42887,7 +42899,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1148178106
 RectTransform:
   m_ObjectHideFlags: 0
@@ -42940,7 +42952,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Boost
 --- !u!222 &1148178108
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -49659,7 +49671,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1281690196}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1621717530917889846}
+        m_TargetAssemblyTypeName: resetcarposition, Assembly-CSharp
+        m_MethodName: resetcarpos
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1281690196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93182,6 +93206,8 @@ MonoBehaviour:
   isinputenabled: 1
   defaultpos: {fileID: 1909087572}
   car: {fileID: 1621717530917889844}
+  resetCarbutton: {fileID: 0}
+  flipCarButton: {fileID: 0}
 --- !u!33 &1628304670626993289
 MeshFilter:
   m_ObjectHideFlags: 0

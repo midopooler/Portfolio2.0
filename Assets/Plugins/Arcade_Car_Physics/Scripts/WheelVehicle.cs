@@ -8,7 +8,8 @@ using UnityEngine.UI;
     using MOSC;
 #endif
 
-namespace VehicleBehaviour {
+namespace VehicleBehaviour
+{
     [RequireComponent(typeof(Rigidbody))]
     public class WheelVehicle : MonoBehaviour {
         public FixedJoystick Throttlejoystick;
@@ -220,31 +221,17 @@ namespace VehicleBehaviour {
                 wheel.motorTorque = 0.0001f;
             }
         }
-        //joystick opener
-        //public void JoystickOpener()
-        //{
-        //    if (useJoyStick == true)
-        //    {
-        //        useJoyStick = false;
-        //        JoystickOpenerAnim.SetTrigger("CloseJoystick");
-        //    }
-        //    else
-        //    {
-        //        useJoyStick = true;
-        //        JoystickOpenerAnim.SetTrigger("OpenJoystick");
-        //    }
-        //}
-        // Visual feedbacks and boost regen
+        
  
           public void boostonbuttonpress()
         {
-            StartCoroutine(startstopBoost());
-            
-        } 
-        IEnumerator startstopBoost()
-        {
             boosting = true;
-            yield return new WaitForSeconds(1);
+           
+            
+        }
+     
+        public void stopboost()
+        {
             boosting = false;
         }
 

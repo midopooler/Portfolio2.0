@@ -38,10 +38,12 @@ public class openButtonScript : MonoBehaviour
             {
                 OpenPage();
             }
-            openerbutton.onClick.RemoveAllListeners();
-            openerbutton.onClick.AddListener(OpenPage);
-            
-          
+            if (openerbutton != null)
+            {
+                openerbutton.onClick.RemoveAllListeners();
+                openerbutton.onClick.AddListener(OpenPage);
+
+            }        
            
             
             

@@ -78686,6 +78686,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3459171095377024337, guid: fbdbe85a31388cf4f8d0a5390841cb5d, type: 3}
+      propertyPath: m_Navigation.m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3459171095377024337, guid: fbdbe85a31388cf4f8d0a5390841cb5d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 684023728}
@@ -80226,6 +80230,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 299915274201620023, guid: b41d6810482962343871ce9638bbd5a9, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1621717532793952228, guid: b41d6810482962343871ce9638bbd5a9, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -80282,6 +80290,26 @@ PrefabInstance:
       propertyPath: defaultpos
       value: 
       objectReference: {fileID: 911529098}
+    - target: {fileID: 2713244849348587590, guid: b41d6810482962343871ce9638bbd5a9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.369
+      objectReference: {fileID: 0}
+    - target: {fileID: 2713244849348587590, guid: b41d6810482962343871ce9638bbd5a9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.212
+      objectReference: {fileID: 0}
+    - target: {fileID: 2713244849348587590, guid: b41d6810482962343871ce9638bbd5a9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.521
+      objectReference: {fileID: 0}
+    - target: {fileID: 3020871009617447044, guid: b41d6810482962343871ce9638bbd5a9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.349
+      objectReference: {fileID: 0}
+    - target: {fileID: 3020871009617447044, guid: b41d6810482962343871ce9638bbd5a9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.382
+      objectReference: {fileID: 0}
     - target: {fileID: 7622120269056430979, guid: b41d6810482962343871ce9638bbd5a9, type: 3}
       propertyPath: useJoyStick
       value: 0

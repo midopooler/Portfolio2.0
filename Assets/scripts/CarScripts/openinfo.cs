@@ -20,6 +20,7 @@ public class openinfo : MonoBehaviour
             //Debug.Log("canvas should close now");
             canvaopen = false;
             canvaopeneranim.SetTrigger("CloseCanva");
+           
         }
         else
         {

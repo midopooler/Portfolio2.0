@@ -109270,7 +109270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Throttlejoystick: {fileID: 1523026946}
   turnJoyStick: {fileID: 1320042820}
-  useJoyStick: 1
+  useJoyStick: 0
   JoystickOpenerAnim: {fileID: 1148924435}
   boostbutton: {fileID: 0}
   isPlayer: 1

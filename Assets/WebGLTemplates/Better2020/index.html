@@ -9,6 +9,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-4EK89T7LRJ"></script>
 <script>
+  
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -18,6 +19,10 @@
     <link rel="shortcut icon" href="TemplateData/favicon1.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
+  <script>
+    let widthWin = window.innerWidth;
+    if (widthWin < 1000) window.location.href = "https://m.pulkitmidha.com";
+  </script>
   <body class="{{{ SPLASH_SCREEN_STYLE.toLowerCase() }}}">
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas"></canvas>

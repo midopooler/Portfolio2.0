@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3180e5f8c04eca045931f1eec4dfd9ee, type: 3}
+  m_Name: PegasusDefaults
+  m_EditorClassIdentifier: 
+  m_keyPrevPoi: 278
+  m_keyNextPoi: 279
+  m_keyUp: 280
+  m_keyDown: 281
+  m_keyLeft: 276
+  m_keyRight: 275
+  m_keyForward: 273
+  m_keyBackward: 274

@@ -374,7 +374,7 @@ MonoBehaviour:
   - {x: 139.657, y: 21.30054, z: -736.1374}
   - {x: 139.35359, y: 21.340677, z: -736.00354}
   - {x: 139.05002, y: 21.380001, z: -735.87}
-  m_isSelected: 1
+  m_isSelected: 0
   m_poiTriggers: []
   m_rotationStart: {x: 0.1190659, y: -0.37301496, z: 0.048334047, w: 0.91888356}
   m_rotationEnd: {x: 0.13543285, y: -0.19014102, z: 0.026492884, w: 0.97200954}
@@ -3162,8 +3162,8 @@ MonoBehaviour:
   m_lookAtDistance: 16.114511
   m_lookAtHeight: 8.257683
   m_lookatLocation: {x: 40.763695, y: 16.918785, z: -748.75793}
-  m_startSpeedType: 6
-  m_startSpeed: 70
+  m_startSpeedType: 3
+  m_startSpeed: 25
   m_rotationEasingType: 0
   m_velocityEasingType: 3
   m_positionEasingType: 0
@@ -11069,7 +11069,7 @@ MonoBehaviour:
   - {x: 195.26907, y: 17.826475, z: -553.6908}
   - {x: 195.27144, y: 17.833204, z: -553.35706}
   - {x: 195.27438, y: 17.84, z: -553.01}
-  m_isSelected: 0
+  m_isSelected: 1
   m_poiTriggers: []
   m_rotationStart: {x: 0.0012687284, y: 0.27620068, z: -0.0003646072, w: 0.9610991}
   m_rotationEnd: {x: 0.21395582, y: -0.00019351457, z: 0.000042385065, w: 0.97684336}
@@ -15447,8 +15447,8 @@ MonoBehaviour:
   m_lookAtDistance: 17.062057
   m_lookAtHeight: 7.1144257
   m_lookatLocation: {x: 198.7171, y: 15.693926, z: -513.3721}
-  m_startSpeedType: 6
-  m_startSpeed: 70
+  m_startSpeedType: 3
+  m_startSpeed: 25
   m_rotationEasingType: 0
   m_velocityEasingType: 3
   m_positionEasingType: 0
@@ -22447,8 +22447,8 @@ MonoBehaviour:
   m_lookAtDistance: 11.419224
   m_lookAtHeight: 3.8627043
   m_lookatLocation: {x: 182.04199, y: 12.479462, z: -840.05383}
-  m_startSpeedType: 6
-  m_startSpeed: 70
+  m_startSpeedType: 3
+  m_startSpeed: 25
   m_rotationEasingType: 0
   m_velocityEasingType: 3
   m_positionEasingType: 0
@@ -29133,6 +29133,82 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f0db688d29cd347d5852dfde5943069b, type: 3}
   m_PrefabInstance: {fileID: 1317235589}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &766993704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 766993706}
+  - component: {fileID: 766993705}
+  m_Layer: 0
+  m_Name: Pegasus Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &766993705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766993704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9033e32bca8a43c49a9bcded8504f1a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_target: {fileID: 386345849418768788}
+  m_flythroughType: 1
+  m_flythroughEndAction: 0
+  m_targetFramerateType: 7
+  m_heightCheckType: 1
+  m_autoStartAtRuntime: 1
+  m_poiList: []
+  m_minHeightAboveTerrain: 1.8
+  m_displayDebug: 0
+  m_alwaysShowGizmos: 1
+  m_currentState: 1
+  m_currentSegmentIdx: 0
+  m_currentSegment: {fileID: 0}
+  m_currentSegmentDistanceTravelled: 0
+  m_totalDistanceTravelled: 0
+  m_totalDistanceTravelledPct: 0
+  m_totalDistance: 0
+  m_currentVelocity: 0
+  m_currentPosition: {x: 0, y: 0, z: 0}
+  m_currentRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_canUpdateNow: 1
+  m_frameUpdateTime: 0.016666668
+  m_frameUpdateDistance: 0
+  m_rotationDamping: 0.75
+  m_positionDamping: 0.3
+  m_nextPegasus: {fileID: 0}
+  m_alwaysShowPath: 0
+  m_showScrubber: 0
+  m_showPOIHelpers: 0
+  m_poiGizmoSize: 0.75
+  m_showAdvanced: 0
+  m_collisionHeightOffset: 1000
+  m_defaults: {fileID: 11400000, guid: 946ff7de4e5167640b89cba68e96c0ce, type: 2}
+--- !u!4 &766993706
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766993704}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 261.32, y: 13, z: -928.63}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 43
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &767845446
 GameObject:
   m_ObjectHideFlags: 0
@@ -41023,8 +41099,8 @@ MonoBehaviour:
   m_lookAtDistance: 17.799849
   m_lookAtHeight: 2.2692146
   m_lookatLocation: {x: 321.70776, y: 10.848715, z: -759.0107}
-  m_startSpeedType: 4
-  m_startSpeed: 70
+  m_startSpeedType: 3
+  m_startSpeed: 25
   m_rotationEasingType: 0
   m_velocityEasingType: 3
   m_positionEasingType: 0
@@ -61410,8 +61486,8 @@ MonoBehaviour:
   m_lookAtDistance: 11.452186
   m_lookAtHeight: 7.684576
   m_lookatLocation: {x: 80.11496, y: 16.496283, z: -724.54224}
-  m_startSpeedType: 6
-  m_startSpeed: 70
+  m_startSpeedType: 3
+  m_startSpeed: 25
   m_rotationEasingType: 0
   m_velocityEasingType: 3
   m_positionEasingType: 0
@@ -64076,7 +64152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_target: {fileID: 386345849418768788}
   m_flythroughType: 1
-  m_flythroughEndAction: 0
+  m_flythroughEndAction: 2
   m_targetFramerateType: 7
   m_heightCheckType: 0
   m_autoStartAtRuntime: 1
@@ -64104,18 +64180,18 @@ MonoBehaviour:
   m_currentSegmentIdx: 0
   m_currentSegment: {fileID: 1137276471}
   m_currentSegmentDistanceTravelled: 0
-  m_totalDistanceTravelled: 1347.3958
-  m_totalDistanceTravelledPct: 0.14396611
+  m_totalDistanceTravelled: 1249.5916
+  m_totalDistanceTravelledPct: 0.40270063
   m_totalDistance: 1384.8076
   m_currentVelocity: 25
-  m_currentPosition: {x: 162.03516, y: 15.82, z: -762.76434}
-  m_currentRotation: {x: 0.1190659, y: -0.37301496, z: 0.048334047, w: 0.91888356}
+  m_currentPosition: {x: 194.05238, y: 12.9, z: -688.03}
+  m_currentRotation: {x: 0.0012687284, y: 0.27620068, z: -0.0003646072, w: 0.9610991}
   m_canUpdateNow: 1
   m_frameUpdateTime: 0.016666668
   m_frameUpdateDistance: 0
   m_rotationDamping: 0.75
   m_positionDamping: 0.3
-  m_nextPegasus: {fileID: 0}
+  m_nextPegasus: {fileID: 766993705}
   m_alwaysShowPath: 0
   m_showScrubber: 1
   m_showPOIHelpers: 1
@@ -64598,8 +64674,8 @@ MonoBehaviour:
   m_lookAtDistance: 18.68244
   m_lookAtHeight: 6.1375704
   m_lookatLocation: {x: 86.464935, y: 14.804344, z: -748.6907}
-  m_startSpeedType: 6
-  m_startSpeed: 6.9
+  m_startSpeedType: 3
+  m_startSpeed: 25
   m_rotationEasingType: 0
   m_velocityEasingType: 3
   m_positionEasingType: 0
@@ -85454,8 +85530,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 386345849418768788}
-  m_LocalRotation: {x: 0.1190659, y: -0.37301496, z: 0.048334047, w: 0.91888356}
-  m_LocalPosition: {x: 162.03516, y: 15.82, z: -762.76434}
+  m_LocalRotation: {x: 0.0012687284, y: 0.27620068, z: -0.0003646072, w: 0.9610991}
+  m_LocalPosition: {x: 194.05238, y: 12.9, z: -688.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -104882,7 +104958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

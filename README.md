@@ -9,6 +9,10 @@ This game is having certain sections like education, projects, work experience, 
 
  [Pulkit's Website](https://pulkitmidha.com/)
 
+# Technology Stack : 
+1. C#
+2. Unity 
+3. WebGL
 
 ![](https://github.com/midopooler/Portfolio2.0/blob/main/Screenshot_1.png)
 ![](https://github.com/midopooler/Portfolio2.0/blob/main/Screenshot_2.png)

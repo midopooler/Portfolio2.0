@@ -24,7 +24,7 @@ public class audioplayer : MonoBehaviour
        // Debug.Log("hit");
         // if (collision.gameObject.tag == "Player"|| collision.gameObject.tag == "road" || collision.gameObject.tag == "brick")
         //{ 
-        Random rand = new Random();
+      //  Random rand = new Random();
 
         source.clip = audios[Random.Range(0, audios.Length-1)];
             source.Play();

@@ -254,7 +254,7 @@ namespace VehicleBehaviour
         // Update everything
         void FixedUpdate () {
             // Mesure current speed
-            speed = transform.InverseTransformDirection(_rb.velocity).z * 3.6f;
+            speed = transform.InverseTransformDirection(_rb.linearVelocity).z * 3.6f;
 
             // Get all the inputs!
             if (isPlayer) {
@@ -280,7 +280,7 @@ namespace VehicleBehaviour
                 if (useJoyStick)
                     steering = turnJoyStick.Horizontal*steerAngle/3;
                 // Dirft
-                drift = GetInput(driftInput) > 0 && _rb.velocity.sqrMagnitude > 100;
+                drift = GetInput(driftInput) > 0 && _rb.linearVelocity.sqrMagnitude > 100;
 
                 if (useJoyStick)
                     
@@ -329,7 +329,7 @@ namespace VehicleBehaviour
                 if (!IsGrounded)
                     return;
                 
-                _rb.velocity += transform.up * jumpVel;
+                _rb.linearVelocity += transform.up * jumpVel;
             }
 
             // Boost
@@ -384,7 +384,7 @@ namespace VehicleBehaviour
             transform.position = spawnPosition;
             transform.rotation = spawnRotation;
 
-            _rb.velocity = Vector3.zero;
+            _rb.linearVelocity = Vector3.zero;
             _rb.angularVelocity = Vector3.zero;
         }
 

@@ -67,7 +67,7 @@ namespace VehicleBehaviour.Utils {
 			if (!follow || target == null) return;
 
 			// normalise velocity so it doesn't jump too far
-			this.rb.velocity.Normalize();
+			this.rb.linearVelocity.Normalize();
 
 			// Save transform localy
 			Quaternion curRot = transform.rotation;

@@ -11,8 +11,8 @@ using System.IO;
 using System.Text;
 using Object = UnityEngine.Object;
 #if UNITY_2018_3_OR_NEWER
-using PrefabStage = UnityEditor.Experimental.SceneManagement.PrefabStage;
-using PrefabStageUtility = UnityEditor.Experimental.SceneManagement.PrefabStageUtility;
+using PrefabStage = UnityEditor.SceneManagement.PrefabStage;
+using PrefabStageUtility = UnityEditor.SceneManagement.PrefabStageUtility;
 #endif
 
 namespace AssetUsageDetectorNamespace
@@ -281,7 +281,7 @@ namespace AssetUsageDetectorNamespace
 					if( ( searchParameters.searchInScenes & SceneSearchMode.OpenScenes ) == SceneSearchMode.OpenScenes )
 					{
 						// Get all open (and loaded) scenes
-						for( int i = 0; i < EditorSceneManager.loadedSceneCount; i++ )
+						for( int i = 0; i < SceneManager.loadedSceneCount; i++ )
 						{
 							Scene scene = EditorSceneManager.GetSceneAt( i );
 							if( scene.IsValid() )
@@ -306,7 +306,7 @@ namespace AssetUsageDetectorNamespace
 				if( isInPlayMode )
 				{
 					HashSet<string> openScenes = new HashSet<string>();
-					for( int i = 0; i < EditorSceneManager.loadedSceneCount; i++ )
+					for( int i = 0; i < SceneManager.loadedSceneCount; i++ )
 					{
 						Scene scene = EditorSceneManager.GetSceneAt( i );
 						if( scene.IsValid() )

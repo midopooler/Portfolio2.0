@@ -17,7 +17,7 @@ public class resetcarposition : MonoBehaviour
             //resetCarbutton.onClick.a
             if (Input.GetKeyUp(KeyCode.F))
             {
-                this.gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
+                this.gameObject.GetComponent<Rigidbody>().linearVelocity = new Vector3(0, 0, 0);
                 this.gameObject.transform.eulerAngles = new Vector3(this.gameObject.transform.eulerAngles.x, this.gameObject.transform.eulerAngles.y, 0);
                 this.gameObject.transform.position = new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y + 2.0f, this.gameObject.transform.position.z);
                 this.gameObject.GetComponent<Rigidbody>().freezeRotation = true;
@@ -31,7 +31,7 @@ public class resetcarposition : MonoBehaviour
             }
             if (Input.GetKeyUp(KeyCode.R) || car.transform.position.y < -100)
             {
-                this.gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
+                this.gameObject.GetComponent<Rigidbody>().linearVelocity = new Vector3(0, 0, 0);
                 this.gameObject.transform.eulerAngles = defaultpos.rotation.eulerAngles;
                 this.gameObject.transform.position = defaultpos.position;
                 this.gameObject.GetComponent<Rigidbody>().freezeRotation = true;
@@ -51,7 +51,7 @@ public class resetcarposition : MonoBehaviour
     {
         if (isinputenabled)
         {
-            this.gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
+            this.gameObject.GetComponent<Rigidbody>().linearVelocity = new Vector3(0, 0, 0);
             this.gameObject.transform.eulerAngles = defaultpos.rotation.eulerAngles;
             this.gameObject.transform.position = defaultpos.position;
             this.gameObject.GetComponent<Rigidbody>().freezeRotation = true;
@@ -63,7 +63,7 @@ public class resetcarposition : MonoBehaviour
     {
         if (isinputenabled)
         {
-            this.gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
+            this.gameObject.GetComponent<Rigidbody>().linearVelocity = new Vector3(0, 0, 0);
             this.gameObject.transform.eulerAngles = new Vector3(this.gameObject.transform.eulerAngles.x, this.gameObject.transform.eulerAngles.y, 0);
             this.gameObject.transform.position = new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y + 2.0f, this.gameObject.transform.position.z);
             this.gameObject.GetComponent<Rigidbody>().freezeRotation = true;

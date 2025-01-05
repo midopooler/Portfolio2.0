@@ -6,8 +6,8 @@ using System.Collections.Generic;
 using System.Reflection;
 using Object = UnityEngine.Object;
 #if UNITY_2018_3_OR_NEWER
-using PrefabStage = UnityEditor.Experimental.SceneManagement.PrefabStage;
-using PrefabStageUtility = UnityEditor.Experimental.SceneManagement.PrefabStageUtility;
+using PrefabStage = UnityEditor.SceneManagement.PrefabStage;
+using PrefabStageUtility = UnityEditor.SceneManagement.PrefabStageUtility;
 #endif
 
 namespace AssetUsageDetectorNamespace

@@ -108,7 +108,7 @@ namespace VehicleBehaviour
 				{
 					Vector3 speed = new Vector3(d.speed[0], d.speed[1], d.speed[2]);
 					Vector3 speedf = new Vector3(df.speed[0], df.speed[1], df.speed[2]);
-					_rb.velocity = Vector3.Lerp(speed, speedf, (time * freq) - index);
+					_rb.linearVelocity = Vector3.Lerp(speed, speedf, (time * freq) - index);
 				}
 			}
 		}
@@ -235,9 +235,9 @@ namespace VehicleBehaviour
 				d.rotation[2] = _vehicleT.rotation[2];
 				d.rotation[3] = _vehicleT.rotation[3];
 
-				d.speed[0] = _vehicleR.velocity[0];
-				d.speed[1] = _vehicleR.velocity[1];
-				d.speed[2] = _vehicleR.velocity[2];
+				d.speed[0] = _vehicleR.linearVelocity[0];
+				d.speed[1] = _vehicleR.linearVelocity[1];
+				d.speed[2] = _vehicleR.linearVelocity[2];
 
 				d.throttle = _vehicle.Throttle;
 				d.steering = _vehicle.Steering;
